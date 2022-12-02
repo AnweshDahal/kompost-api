@@ -1,6 +1,6 @@
 const moment = require("moment");
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const salt = bcrypt.genSaltSync(8);
 
